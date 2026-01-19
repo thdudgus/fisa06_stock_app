@@ -13,9 +13,6 @@ import FinanceDataReader as fdr
 import matplotlib.pyplot as plt
 import koreanize_matplotlib
 
-
-st.write(my_name)
-
 def get_krx_company_list() -> pd.DataFrame:
     try:
         # 파이썬 및 인터넷의 기본 문자열 인코딩 방식: UTF-8

@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 my_name = os.getenv("MY_NAME")
+st.write(my_name)
 
 ani_list = ['짱구는못말려', '몬스터','릭앤모티']
 img_list = ['https://i.imgur.com/t2ewhfH.png', 
