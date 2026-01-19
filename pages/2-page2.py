@@ -18,6 +18,7 @@ from dotenv import load_dotenv
 load_dotenv()
 my_name = os.getenv("MY_NAME")
 
+st.write(my_name)
 
 def get_krx_company_list() -> pd.DataFrame:
     try:
